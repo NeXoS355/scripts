@@ -1,3 +1,5 @@
+REM sync one Folder with a Source Folder without using robocopy
+
 @echo off
 SETLOCAL EnableDelayedExpansion
 
