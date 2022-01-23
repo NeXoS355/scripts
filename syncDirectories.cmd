@@ -9,7 +9,7 @@ SET ziel=C:\WNC\home\d_xnc\p_p\prog\Auftraege\
 
 REM "\" am Pfadende sicherstellen
 if NOT "%ziel:~-1%" == "\" SET ziel=%ziel%\
-if NOT "%quelle:~-1%" == "\" SET ziel=%quelle%\
+if NOT "%quelle:~-1%" == "\" SET quelle=%quelle%\
 
 REM Quelle spiegeln
 xcopy %quelle% %ziel% /d /i /s /e
